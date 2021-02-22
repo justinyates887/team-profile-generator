@@ -1,4 +1,6 @@
-# team-profile-generator
+# Team Profile Generator
+
+By: Justin Yates
 
 [Demo](https://drive.google.com/file/d/1vDH8cbQJyzqIdsVryqvxwPAiFwaYmT79/view?usp=sharing)
 
