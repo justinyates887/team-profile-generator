@@ -3,7 +3,7 @@ const global = require("../global.json");
 const builders = require('./builders')
 
 const managerInfo = async (answers) => {
-    let manObj = {
+    const manObj = {
         name: `<h5>${answers.managerName}<h5>\n`,
         id: `<strong>${answers.managerID}</strong>\n`,
         email: `<a href="mailto:${answers.managerEmail}">${answers.managerEmail}</a>\n`,
@@ -38,7 +38,7 @@ const managerInfo = async (answers) => {
 }
 
 const engineerInfo = async (answers) => {
-    let engObj = {
+    const engObj = {
         name: `<h5>${answers.engineerName}<h5>\n`,
         id: `<strong>${answers.engineerID}</strong>\n`,
         email: `<a href="mailto:${answers.engineerEmail}">${answers.engineerEmail}</a>\n`,
@@ -74,9 +74,9 @@ const engineerInfo = async (answers) => {
 
 
 const internInfo = async (answers) => {
-    let intObj = {
+    const intObj = {
         name: `<h5>${answers.internName}<h5>\n`,
-        id: `<strong>${answers.internID}</strongn`,
+        id: `<strong>${answers.internID}</strong\n`,
         email: `<a href="mailto:${answers.internEmail}">${answers.internEmail}</a>\n`,
         phone: `<p>${answers.internNumber}</p>\n`,
         github: `<a href="https://github.com/${answers.internGithub}">Github</a>\n`
